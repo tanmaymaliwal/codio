@@ -62,7 +62,7 @@ function getRedirectSetupMessage(redirectUri: string) {
         'Open Supabase Dashboard → Authentication → URL Configuration and add:',
         `  ${redirectUri}`,
         '  exp://**',
-        '  leetcodemobile://**',
+        '  codio://**',
         '',
         'Then try signing in again.',
     ].join('\n')

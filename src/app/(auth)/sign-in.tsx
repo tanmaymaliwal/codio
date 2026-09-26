@@ -60,7 +60,7 @@ export default function SignInScreen() {
           <View style={styles.header}>
             <View style={styles.logoBox}>
               <Image
-                source={require('../../../assets/images/logo.svg')}
+                source={require('../../../assets/images/logo.png')}
                 style={styles.logoImage}
                 resizeMode="contain"
               />
